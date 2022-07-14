@@ -8,13 +8,13 @@ public class HashMapMetods { // Тело класса
     // Модификатор доступа основного метода
     public static void main(String[] args) { // Тело метода
 // Создание объекта типа Map похоже на создание коллекций - только мы должны задавать два типа - тип ключа и тип значения:
-        HashMap<String, Integer> myHashMap = new HashMap<String, Integer>();
+        HashMap<java.lang.String, Integer> myHashMap = new HashMap<>();
         // put(K key, V value) - добавляет элемент в карту;
         myHashMap.put("Basil", 1987); // Имя и год рождения
         myHashMap.put("Kate", 1971); // Имя и год рождения
         myHashMap.put("Lena", 1991); // Имя и год рождения
         // Map.Entry(интерфейс) позволяет получить доступ к записям на карте
-        for (Map.Entry<String, Integer> entry : myHashMap.entrySet())
+        for (Map.Entry<java.lang.String, Integer> entry : myHashMap.entrySet())
             // Вывод информации в консоль {String = ключ} {Integer = Значение}
             System.out.println(entry.getKey() + " - " + entry.getValue());
     } // Закрывает тело метода
@@ -26,7 +26,7 @@ class Get { // Тело класса
     // Модификатор доступа основного метода
     public static void main(String[] args) { // Тело метода
         // Создание объекта типа Map похоже на создание коллекций - только мы должны задавать два типа - тип ключа и тип значения:
-        HashMap<String, String> myHashMap = new HashMap<String, String>();
+        HashMap<java.lang.String, java.lang.String> myHashMap = new HashMap<>();
         // put(K key, V value) - добавляет элемент в карту;
         myHashMap.put("Basil", "07.12.1987"); // Имя и дата рождения
         myHashMap.put("Kate", "12.10.1971"); // Имя и дата рождения
@@ -44,7 +44,7 @@ class Remove { // Тело класса
     // Модификатор доступа основного метода
     public static void main(String[] args) { // Тело метода
         // Создание объекта типа Map похоже на создание коллекций - только мы должны задавать два типа - тип ключа и тип значения:
-        HashMap<String, String> myHashMap = new HashMap<String, String>();
+        HashMap<java.lang.String, java.lang.String> myHashMap = new HashMap<>();
         // put(K key, V value) - добавляет элемент в карту;
         myHashMap.put("Basil", "07.12.1987"); // Имя и дата рождения
         myHashMap.put("Kate", "12.10.1971"); // Имя и дата рождения
@@ -52,7 +52,7 @@ class Remove { // Тело класса
         // Строка которая выведится в консоль
         System.out.println("До удаления ключа:");
         // Map.Entry(интерфейс) позволяет получить доступ к записям на карте
-        for (Map.Entry<String, String> entry : myHashMap.entrySet())
+        for (Map.Entry<java.lang.String, java.lang.String> entry : myHashMap.entrySet())
             // Вывод информации в консоль {String = ключ} {String = Значение}
             System.out.println(entry.getKey() + " - " + entry.getValue());
         // remove(Object key) - удаляем значение по его ключу. Например;
@@ -60,7 +60,7 @@ class Remove { // Тело класса
         // Строка которая выведится в консоль
         System.out.println("\nПосле удаления ключа:");
         // Map.Entry(интерфейс) позволяет получить доступ к записям на карте
-        for (Map.Entry<String, String> entry : myHashMap.entrySet())
+        for (Map.Entry<java.lang.String, java.lang.String> entry : myHashMap.entrySet())
             // Вывод информации в консоль {String = ключ} {String = Значение}
             System.out.println(entry.getKey() + " - " + entry.getValue());
     } // Закрывает тело метода
@@ -72,7 +72,7 @@ class ContainsKey { // Тело класса
     // Модификатор доступа основного метода
     public static void main(String[] args) { // Тело метода
         // Создание объекта типа Map похоже на создание коллекций - только мы должны задавать два типа - тип ключа и тип значения:
-        HashMap<String, String> myHashMap = new HashMap<String, String>();
+        HashMap<java.lang.String, java.lang.String> myHashMap = new HashMap<>();
         // put(K key, V value) - добавляет элемент в карту;
         myHashMap.put("Basil", "07.12.1987"); // Имя и дата рождения
         myHashMap.put("Kate", "12.10.1971"); // Имя и дата рождения
@@ -89,7 +89,7 @@ class ContainsValue { // Тело класса
     // Модификатор доступа основного метода
     public static void main(String[] args) { // Тело метода
         // Создание объекта типа Map похоже на создание коллекций - только мы должны задавать два типа - тип ключа и тип значения:
-        HashMap<String, String> myHashMap = new HashMap<String, String>();
+        HashMap<java.lang.String, java.lang.String> myHashMap = new HashMap<>();
         // put(K key, V value) - добавляет элемент в карту;
         myHashMap.put("Basil", "07.12.1987"); // Имя и дата рождения
         myHashMap.put("Kate", "12.10.1971"); // Имя и дата рождения
@@ -106,7 +106,7 @@ class Size { // Тело класса
     // Модификатор доступа основного метода
     public static void main(String[] args) { // Тело метода
         // Создание объекта типа Map похоже на создание коллекций - только мы должны задавать два типа - тип ключа и тип значения:
-        HashMap<String, String> myHashMap = new HashMap<String, String>();
+        HashMap<java.lang.String, java.lang.String> myHashMap = new HashMap<>();
         // put(K key, V value) - добавляет элемент в карту;
         myHashMap.put("Basil", "07.12.1987"); // Имя и дата рождения
         myHashMap.put("Kate", "12.10.1971"); // Имя и дата рождения
